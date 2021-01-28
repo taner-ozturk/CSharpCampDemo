@@ -14,7 +14,7 @@ namespace Metotlar
             Console.WriteLine("Tebrikler. Sepete eklendi : " + product.Name);
 
         }
-        public void Add2(string productName, string Info, double Price)
+        public void Add2(string productName, string Info, double Price, int Stock)
         {
             Console.WriteLine("Tebrikler. Sepete eklendi : " + productName);
 

@@ -6,7 +6,8 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
-            String fruits = new String[] { "Elma", "Karpuz" };
+            
+            string[] fruits = new string[] { };
 
             Product product1 = new Product();
             product1.Name = "Elma";
