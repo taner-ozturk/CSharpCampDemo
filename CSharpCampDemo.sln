@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCampDemo", "CSharpCampDemo\CSharpCampDemo.csproj", "{D7FFC6FE-72FF-4608-A6CC-80A606178E4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpCampDemo", "CSharpCampDemo\CSharpCampDemo.csproj", "{D7FFC6FE-72FF-4608-A6CC-80A606178E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{E5B2F6AB-918B-479D-B6DC-8F2EA6FC01C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{E5B2F6AB-918B-479D-B6DC-8F2EA6FC01C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Donguler.csproj", "{4890009E-8F6E-4447-849D-11BAB5AC505C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donguler", "Donguler\Donguler.csproj", "{4890009E-8F6E-4447-849D-11BAB5AC505C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork", "HomeWork\HomeWork.csproj", "{F3D17D29-193E-4BA4-B2E0-1F591D1E1FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWork.csproj", "{F3D17D29-193E-4BA4-B2E0-1F591D1E1FA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{7C2ED863-0BB9-4CD2-8810-0705BAE70174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{7C2ED863-0BB9-4CD2-8810-0705BAE70174}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{24E42ED0-2716-4D0D-AD50-081524454920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{2937D529-9289-4F95-A565-5797FB361476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{7C2ED863-0BB9-4CD2-8810-0705BAE70174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C2ED863-0BB9-4CD2-8810-0705BAE70174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C2ED863-0BB9-4CD2-8810-0705BAE70174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E42ED0-2716-4D0D-AD50-081524454920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E42ED0-2716-4D0D-AD50-081524454920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E42ED0-2716-4D0D-AD50-081524454920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E42ED0-2716-4D0D-AD50-081524454920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2937D529-9289-4F95-A565-5797FB361476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2937D529-9289-4F95-A565-5797FB361476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2937D529-9289-4F95-A565-5797FB361476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2937D529-9289-4F95-A565-5797FB361476}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
