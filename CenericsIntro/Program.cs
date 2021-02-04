@@ -19,7 +19,7 @@ namespace CenericsIntro
             foreach (var isim in isimler.Items)
 
             {
-                Console.WriteLine(isim);
+                Console.WriteLine(isim);    
 
             }
 
