@@ -5,7 +5,5 @@ namespace OOP3
     {
        void Calculate();
        void DoSomething();
-
-
     }
 }

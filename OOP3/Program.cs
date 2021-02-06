@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OOP3
 {
@@ -10,9 +11,16 @@ namespace OOP3
             ICreditManager transportCreditManager = new TransportCreditManager();
             ICreditManager mortgageLoanManager = new MortgageLoanManager();
 
-            ReferenceManager referenceManager = new ReferenceManager();
-            referenceManager.ToApply(transportCreditManager);
+            IloggerService databaseLoggerService = new DatabaseLoggerService();
+            IloggerService fileLoggerService = new FileLoggerService();
 
+            ReferenceManager referenceManager = new ReferenceManager();
+            referenceManager.ToApply(transportCreditManager, databaseLoggerService);
+                                     //seçilen kredi hesaplama seçilen database loglama
+          
+            List<ICreditManager> credits = new List<ICreditManager>() {personalCreditManager,mortgageLoanManager };
+
+            //referenceManager.MakeCreditAdvanceNotification(credits);
         }
     }
 }
