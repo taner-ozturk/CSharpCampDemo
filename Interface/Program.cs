@@ -13,19 +13,14 @@ namespace Interface
             ProjectManager projectManager = new ProjectManager();
             projectManager.Add(new InternManager());
             projectManager.Delete(new EmployeeManager());
-           
-
+   
         }
-
-
 
         interface IPersonManager
         {
             void Add();
             void Delete();
         }
-
-
 
         class CustomerManager : IPersonManager
         {

@@ -1,0 +1,6 @@
+﻿namespace InterfacesDemo
+{
+    interface IWorker
+    {
+    }
+}
